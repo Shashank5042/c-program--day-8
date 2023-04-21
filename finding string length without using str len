@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    char str[100];
+    int i,length;
+    printf("Enter a string: \n");
+    gets(str);
+   while(str[length]!='\0')
+    {
+        length++; 
+    }
+    printf("\nLength of input string: %d",length);
+     return 0;
+}
